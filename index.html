@@ -116,6 +116,13 @@ footer{display:flex;justify-content:space-between;gap:12px;padding:22px 0;color:
 <footer class="wrap"><span>© <span id="year"></span> يزن القحطاني</span><span>مجموعة إنسان · صُنع بشغف</span></footer>
 <button class="field-launch" id="fieldLaunch" aria-expanded="false" aria-controls="fieldMenu"><i>✳</i> استكشف مجالاتي</button>
 <div class="field-menu" id="fieldMenu" role="dialog" aria-label="مجالات يزن"><div class="menu-head"><span>وين نروح؟<small>اختر مساحة واكتشفها</small></span><button id="fieldClose" aria-label="إغلاق">×</button></div><a href="#engineering"><i>⌁</i> الهندسة والتحسين</a><a href="#presenting"><i>◉</i> التقديم وإدارة الحوار</a><a href="#writing"><i>✎</i> كتابة المحتوى الإبداعي</a><a href="#stories"><i>✳</i> محطات وتجارب ١٤٤٧هـ</a><a href="#projects"><i>↗</i> إدارة المشاريع</a><a href="#voice"><i>♫</i> التعليق الصوتي</a></div>
+<div class="newsletter-modal" id="newsletterModal" role="dialog" aria-modal="true" aria-labelledby="newsletterTitle" aria-hidden="true">
+<button class="newsletter-backdrop" type="button" data-newsletter-close aria-label="إغلاق النافذة"></button>
+<div class="newsletter-dialog"><button class="newsletter-close" type="button" data-newsletter-close aria-label="إغلاق">×</button><div class="section-kicker">A NEWSLETTER SERIES</div><h2 id="newsletterTitle">رحلة مهندس</h2><p class="newsletter-intro">ثلاث نشرات، وثلاث زوايا للتأمل في التجربة والعمل والحياة.</p><div class="work-list">
+<a class="work-link" href="https://lnkd.in/p/dXFdKqfu" target="_blank" rel="noopener"><span><strong>فخ يسبب الإحباط</strong><small>اقرأ النشرة</small></span><i>↗</i></a>
+<a class="work-link" href="https://lnkd.in/p/dkwV-3DV" target="_blank" rel="noopener"><span><strong>كيف يعمل قادة بلدنا في عشرات المناصب بكفاءة مذهلة؟</strong><small>اقرأ النشرة</small></span><i>↗</i></a>
+<a class="work-link" href="https://lnkd.in/p/dzPx5-kW" target="_blank" rel="noopener"><span><strong>الأيام الصعبة</strong><small>اقرأ النشرة</small></span><i>↗</i></a>
+</div></div></div>
 <script>
 document.getElementById("year").textContent=new Date().getFullYear();
 const launcher=document.getElementById("fieldLaunch"),menu=document.getElementById("fieldMenu"),close=document.getElementById("fieldClose");
